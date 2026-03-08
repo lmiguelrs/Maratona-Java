@@ -56,6 +56,5 @@ public class Aula04Operadores {
         int contador2 = 0;
 
         System.out.println(++contador2);
-
     }
 }
