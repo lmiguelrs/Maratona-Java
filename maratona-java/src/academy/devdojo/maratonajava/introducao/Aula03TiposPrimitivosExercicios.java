@@ -14,7 +14,7 @@ public class Aula03TiposPrimitivosExercicios {
         String endereco = "Rua sem nome, 123";
         double salario = 3000.00;
         String dataRecebimentoSalario = "01/03/2026";
-        String relatorio = "Eu "+nome+", morando no endereço "+endereco+ ", confirmo que recebi o salário de "+salario+", na data "+dataRecebimentoSalario+".";
+        String relatorio = "Eu " + nome + ", morando no endereço " + endereco + ", confirmo que recebi o salário de " + salario + ", na data " + dataRecebimentoSalario + ".";
         System.out.println(relatorio);
     }
 }

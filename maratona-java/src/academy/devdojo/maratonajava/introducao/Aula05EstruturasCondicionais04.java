@@ -19,7 +19,7 @@ public class Aula05EstruturasCondicionais04 {
             imposto = salario * terceiraFaixa;
         }
         salario -= imposto;
-        System.out.println("O salário é de: "+salario);
-        System.out.println("O imposto é de: "+imposto);
+        System.out.println("O salário é de: " + salario);
+        System.out.println("O imposto é de: " + imposto);
     }
 }

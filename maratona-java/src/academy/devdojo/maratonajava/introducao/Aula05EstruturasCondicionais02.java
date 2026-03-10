@@ -8,11 +8,11 @@ public class Aula05EstruturasCondicionais02 {
         int idade = 17;
         String categoria;
 
-        if(idade < 15) {
+        if (idade < 15) {
             categoria = "Categoria Infantil";
-        }else if(idade >= 15 && idade < 18) {
+        } else if (idade >= 15 && idade < 18) {
             categoria = "Categoria Juvenil";
-        }else {
+        } else {
             categoria = "Categoria Adulto";
         }
         System.out.println(categoria);

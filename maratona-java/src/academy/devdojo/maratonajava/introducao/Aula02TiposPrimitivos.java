@@ -14,10 +14,10 @@ public class Aula02TiposPrimitivos {
         char caractere = 'a';
         String nome = "Goku";
 
-        System.out.println("A idade é "+ idade+" anos");
+        System.out.println("A idade é " + idade + " anos");
         System.out.println(falso);
-        System.out.println("Char "+caractere);
+        System.out.println("Char " + caractere);
         System.out.println(numeroGrande);
-        System.out.println("Oi meu nome é "+nome);
+        System.out.println("Oi meu nome é " + nome);
     }
 }
