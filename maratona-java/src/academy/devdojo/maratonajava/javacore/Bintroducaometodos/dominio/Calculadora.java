@@ -16,4 +16,24 @@ public class Calculadora {
         }
         return num1/num2;
     }
+    public double divideDoisNumeros02(double num1, double num2) {
+        if (num2 != 0) {
+            return num1/num2;
+        } // Poderia usar também o Else e nesse caso tem um "oculto"
+        //System.out.println("Não existe divisão por zero");
+        return 0;
+    }
+    public void divideDoisNumeros03(double num1, double num2) {
+        if (num2 == 0) {
+            System.out.println("Não existe divisão por zero");
+            return;
+        } // Poderia usar um else também para não ler a condição de divisão
+        System.out.println(num1/num2);
+    }
+    public void alteraDoisNumeros(int numero01, int numero02) {
+        numero01 = 99;
+        numero02 = 33;
+        System.out.println("Dentro do AlteraDoisNumeros");
+        System.out.println("numero01: "+ numero01 + " numero02: " + numero02);
+    }
 }
