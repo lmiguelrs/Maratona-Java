@@ -76,7 +76,7 @@ public class Calculadora {
         System.out.println("É primo");
     }
 
-    public void listaDobrada (int[] numeros) {
-        for (int num * 2)
-    }
+   // public void listaDobrada (int[] numeros) {
+    //    for (int num * 2)
+   // }
 }
