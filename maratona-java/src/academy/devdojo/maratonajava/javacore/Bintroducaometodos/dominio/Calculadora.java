@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
 
+
+
 public class Calculadora {
     public void somaDoisNumeros() {
         System.out.println(10 + 10);
@@ -57,5 +59,24 @@ public class Calculadora {
             soma += num;
         }
         System.out.println(soma);
+    }
+
+    public void numeroPrimo(int num1) {
+        if (num1 <= 1) {
+            System.out.println("Não é primo");
+            return;
+        }
+
+        for (int i = 2; i * i <= num1; i++) {
+            if (num1 % i == 0) {
+                System.out.println("Não é primo");
+                return;
+            }
+        }
+        System.out.println("É primo");
+    }
+
+    public void listaDobrada (int[] numeros) {
+        for (int num * 2)
     }
 }
